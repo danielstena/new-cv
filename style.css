@@ -7,16 +7,86 @@ body{
     border:1px solid black;
     width:100%;
     height:40em;
-    color:whitesmoke;
-
 }
-.nameandtitle{
-    border:1px solid black;
-    margin-top:10%;
+.one{
+    margin-top:5%;
+    margin-bottom:10%;
+}
+.nameandtitleandbox{
+    margin-top:5%;
     width:50%;
     height:40%
 }
+.overname{
+    color:whitesmoke;
+    
+}
 .namn{
-    border:1px solid black;
+    font-size: 70px;
+    font-family: 'Bangers', cursive;
+    color:whitesmoke;
+}
+.title{
+    color:red;
+}
+.boxes{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:70%;
+    margin-top:15%;
+    margin-bottom:15%;
 
+}
+.box1, .box2, .box3{
+    width:10vh;
+    height: 10vh;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 8px;
+}
+.box1:hover, .box2:hover, .box3:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    
+}
+.cssandhtml{
+    width:10vh;
+    height:10vh;
+}
+.two{
+    border:1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.twoleft{
+    width:40%;
+    margin-top:5%;
+    margin-bottom:5%;
+    
+}
+.twoleft > img{
+    width:80%;
+    height:90%;
+    border-radius: 180px;
+    opacity: 0.8;
+}
+.tworight{
+    border:1px solid white;
+    width:60%;
+}
+.tworighthello{
+    margin-top:30%;
+    color:white;
+    font-family: 'Bangers', cursive;
+    margin-left:15%;
+}
+.tworightinfo{
+    color:lightgray; 
+    font-family: 'Cormorant Unicase', serif;
+    margin-left:15%;
+}
+hr{
+    color:white;
+    width:50px;
 }
