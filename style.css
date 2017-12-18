@@ -1,14 +1,12 @@
+
 body{
     background-color: black;
     padding:0px;
     margin:0px;
 }
-.container{
-    width:100%;
-}
 .one{
-    margin-top:12%;
-    margin-bottom:14%;
+    margin-top:12vh;
+    margin-bottom:10vh;
     height:100%;
     display: flex;
     flex-direction: row;
@@ -32,6 +30,9 @@ body{
 }
 .overname{
     color:rgb(80, 78, 78);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    
 }
 .namn {
     font-size: 70px;
@@ -40,20 +41,22 @@ body{
 }
 .rline{
     margin-top:2%;
-    margin-left: 13%;
+    margin-left: 7vh;
 }
 .title{
     color:rgb(80, 78, 78);
     margin-top:8%;
     margin-bottom: 5%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
 }
 .boxes{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     width:78%;
-    margin-top:2%;
-    margin-bottom:15%;
+    margin-top:2vh;
+    margin-bottom:20vh;
 
 }
 .box1, .box2, .box3{
@@ -79,10 +82,18 @@ body{
     margin-left: 27%;
     margin-top:20%;
     color:white;
+    text-align-last: center;
+}
+.arrowdown{
+    color:white;
+    display: flex;
+    justify-content: center;
 }
 .two{
     display: flex;
     flex-direction: row;
+    margin-top:30vh;
+    margin-bottom:50px;
 }
 .twoleft{
     width:40%;
@@ -99,27 +110,84 @@ body{
     width:60%;
 }
 .tworighthello{
-    margin-top:30%;
+    margin-top:20%;
     color:white;
     font-family: 'Bangers', cursive;
-    margin-left:15%;
+    margin-left:5%;
 }
 .tworightinfo{
     color:lightgray; 
-    font-family: 'Cormorant Unicase', serif;
-    margin-left:15%;
+    font-family: 'Orbitron', sans-serif;
+    margin-left:5%;
 }
-hr{
+.rlinediv{
+    margin-left:5vh;
+}
+.namejobb{
+    display: flex;
+    flex-direction: row;
+    margin-top:1vh;
+}
+.agecity{
+    display: flex;
+    flex-direction: row;
+}
+.fat{
+    font-family: 'Bangers', cursive;
     color:white;
-    width:50px;
+    margin-right: 2vh;
+    margin-left: 2vh;
 }
-h1{
-    margin:0px;
-    padding:0px;
+.buttontoletter{
+    display:flex;
+    justify-content: space-between;
+    margin-top:5%;
+    width:50%;
 }
+.three{
+    color:white;
+    margin-top:300px;
+    margin-bottom:50px;
+}
+arrowup{
+    margin:auto;
+    margin-bottom:50px;
+}
+.slide{
+    margin:auto;
+    margin-top:200px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    color: black;
+    background-color: black;
+  }
+
+
+
 @media only screen and (max-width: 600px) {
+.one{
+    margin-top:40px;
+}
+.namn{
+    font-size: 25px;
+}
+#eye{
+    height:150px;
+    width:200px;
+}
+.boxes{
+    display:flex;
+    justify-content: space-between;
+    width:300px;
+    margin-top:100px;
+    margin-bottom:350px;
+}
+hiddendivhtml, hiddendivcss, .hiddendivjs{
+    margin-top:0px;
 
 }
+}
+
 @media only screen and (min-width: 800px){
     #header{
         font-size: 70%;

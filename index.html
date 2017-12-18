@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Bangers|Cormorant+Unicase" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Orbitron" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+    <script src="https://use.fontawesome.com/8c11712237.js"></script>
 </head>
-  <body>
+  <body>        
     <div class="container">
         <div class="one">   
             <div class="oneleft">
@@ -43,34 +43,37 @@
                         </div>
                     </div> 
                 </div>
-                <div class="card hiddendivhtml" style="width: 30vh;">
-                    <img class="card-img-top" src="html.png" width="8vh" height="150vh" alt="Card image cap">
+                <div class="card hiddendivhtml" style="width: 35vh;">
+                    <img class="card-img-top justify-content-center" src="html.png" width="8vh" height="150vh" alt="Card image cap">
                     <div class="card-body">
-                      <p class="card-text">Grundläggande information om HTML.</p>
+                      <p class="text-center">HTML is the standard markup language for creating Web pages.</p>
                     </div>
                 </div>
-                <div class="card hiddendivcss" style="width: 30vh;">
+                <div class="card hiddendivcss" style="width: 35vh;">
                     <img class="card-img-top" src="css.png" width="8vh" height="150vh" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Grundläggande information om CSS.</p>
+                        <p class="text-center">CSS describes how HTML elements should be displayed.</p>
                     </div>
                 </div>
-                <div class="card hiddendivjs" style="width: 30vh;">
+                <div class="card hiddendivjs" style="width: 35vh;">
                     <img class="card-img-top" src="js.png" width="8vh" height="150vh" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text">Grundläggande information om JS.</p>
+                        <p class="text-center">Grundläggande information om JS.</p>
                     </div>
                 </div>
             </div>
             <div class="oneright">
                 <div class="onerightbild">
-                    <img src="eye.jpg">
+                    <img src="eye.jpg" id="eye">
                 </div>
             </div>
         </div>
-        
-        
-        <div class="two">
+        <div class="arrowdown">
+            <a href="#hit">
+                <i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="two" id="hit">
             <div class="twoleft">
                 <img src="jag2.jpg">
             </div>
@@ -81,13 +84,87 @@
                     </h1>
                 </div>
                 <div class="tworightinfo">
-                    <h5>
-                        Mitt namn är Daniel Stenå. Jag brinner för allt inom webutvekling till programmering och utbildar mig just nu till webutvecklare inom e-handel på medieinstitutet i Göteborg.
-                    </h5>
+                    <h6>
+                        Mitt namn är Daniel Stenå. Jag brinner för allt från webutveckling till programmering och utbildar mig just nu till webutvecklare inom e-handel på medieinstitutet i Göteborg.
+                    </h6>
+                    <div class="rlinediv">
+                        <img src="rline.jpg" height="20px" width="90%">
+                    </div>
+                    <div class="namejobb">
+                        <div class="fat">
+                            Namn:
+                        </div>
+                        <div class="answer">
+                            Daniel Stenå
+                        </div>
+                        <div class="fat">
+                            Gör just nu:
+                        </div>
+                        <div class="answer">
+                            Studerar webutveckling inom e-handel
+                        </div>
+                    </div>
+                    <div class="agecity">
+                        <div class="fat">
+                            Ålder:
+                        </div>
+                        <div class="answer">
+                            34 år
+                        </div>
+                        <div class="fat">
+                            Stad:
+                        </div>
+                        <div class="answer">
+                            Göteborg
+                        </div>
+                    </div>
+                    <div class="buttontoletter">
+                        <a href="http://danielstena.wieg17.se/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">CV</a>                            
+                        <a href="jag.jpg" download class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Personligt brev</a>
+                    </div>
                 </div>
-                <img src="rline.jpg" class="rline">
-            </div>
+            </div>            
         </div>    
+        <div class="arrowdown">
+            <a href="#hit2">
+                <i class="fa fa-arrow-down fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="three">
+            <div class="arrowdown">
+                <a href="#hit">
+                    <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" style="width: 400px; height:600px;" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner w-100">
+                    <div class="carousel-item active">
+                        <a href="http://danielstena.wieg17.se/jsprojekt/">
+                            <img class="d-block w-100 h-100" src="tech.png" alt="First slide">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="http://danielstena.wieg17.se/cesoir/">
+                            <img class="d-block w-100 h-100" src="cesoir.png" alt="Second slide">
+                        </a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <p id="hit2"></p>
+                <br>
+            </div>
+        </div>
     </div>
     
    
