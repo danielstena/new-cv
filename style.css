@@ -1,38 +1,37 @@
-
 body{
     background-color: black;
     padding:0px;
-    margin:0px;
 }
 .one{
-    margin-top:12vh;
-    margin-bottom:10vh;
-    height:100%;
+    height: 100vh;
+}
+.oneextra{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
 }
 .oneleft{
-    width:40%;
+    width:30%;
+    margin-top:10%;
 }
 .oneright{
-    width:60%;
+    width:70%;
+    margin-top:10%;
 }
 .onerightbild > img{
-    width:100%;
+    width:90%;
     height:60vh;
+    margin-left:2%;
 } 
 .nameandtitleandbox{
     margin-top:5%;
     width:100%;
     height:40%;
-    margin-left: 18%;
+    margin-left: 5%;
 }
 .overname{
-    color:rgb(80, 78, 78);
+    color:lightgray;
     font-family: 'Orbitron', sans-serif;
-    font-size: 12px;
-    
+    font-size: 12px;   
 }
 .namn {
     font-size: 70px;
@@ -44,7 +43,7 @@ body{
     margin-left: 7vh;
 }
 .title{
-    color:rgb(80, 78, 78);
+    color:lightgray;
     margin-top:8%;
     margin-bottom: 5%;
     font-family: 'Orbitron', sans-serif;
@@ -54,7 +53,7 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    width:78%;
+    width:100%;
     margin-top:2vh;
     margin-bottom:20vh;
 
@@ -69,7 +68,6 @@ body{
 .box1:hover, .box2:hover, .box3:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
-    
 }
 .cssandhtml{
     width:10vh;
@@ -79,21 +77,25 @@ body{
     background-color: white;
     width: 100%;
     height: 10vh;
-    margin-left: 120px;
-    margin-top:120px;
+    margin-left: 7%;
+    margin-top:100px;
     color:white;
     text-align-last: center;
 }
-.arrowdown{
-    color:white;
+.arrowdown1{
     display: flex;
     justify-content: center;
+    color:white;
+    margin-top:180px;
 }
 .two{
+    height: 100vh;
+    margin-top:1vh;
+    margin-bottom:0px;
+}
+.twoextra{
     display: flex;
     flex-direction: row;
-    margin-top:30vh;
-    margin-bottom:50px;
 }
 .twoleft{
     width:40%;
@@ -102,8 +104,7 @@ body{
     
 }
 .twoleft > img{
-    width:100%;
-    height:100%;
+    height:50vh;
     opacity: 0.8;
 }
 .tworight{
@@ -122,6 +123,17 @@ body{
 }
 .rlinediv{
     margin-left:5vh;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.flexdivtilldivarna{
+    display: flex;
+    flex-direction: row;
+}
+.flexdiv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
 }
 .namejobb{
     display: flex;
@@ -135,8 +147,11 @@ body{
 .fat{
     font-family: 'Bangers', cursive;
     color:white;
-    margin-right: 2vh;
-    margin-left: 2vh;
+    margin-bottom:5%;
+}
+.answer{
+    margin-bottom:2%;
+    font-size: 14px;
 }
 .buttontoletter{
     display:flex;
@@ -144,23 +159,38 @@ body{
     margin-top:5%;
     width:50%;
 }
+.mywork{
+    color:lightgray;
+    text-align: center;
+    margin-top:200px;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+.arrowdown2{
+    display: flex;
+    justify-content: center;
+}
 .three{
     color:white;
     margin-top:300px;
     margin-bottom:50px;
+    height: 100vh;
 }
-arrowup{
+.arrowup{
     margin:auto;
-    margin-bottom:50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 50px;
 }
 .slide{
     margin:auto;
-    margin-top:200px;
+    border:1px solid white;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     color: black;
     background-color: black;
-  }
+}
 
 
 
