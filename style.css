@@ -200,39 +200,60 @@ body{
 @media only screen and (max-width: 600px) {
 
 .one{
-    margin-top:100px;
+    margin-top:0px;
     height: 90vh;
 }
-.oneextra{
-    display: flex;
-    flex-direction: column;
+.oneleft{
+    width:100vh;
+    margin-top:0px;
+}
+.oneright{
+    display:none;
+}
+.overname{
+    font-size: 10px;
 }
 .namn{
-    font-size: 100px;
+    font-size: 65px;
     width:100vh;
+    margin-bottom: 0px;
+}
+.rline{
+    width:270px;
+    margin-top:0px;
+    margin-left:10px;
+    margin-bottom: 0px;
 }
 .title{
     width:100vh;
-    margin-top:20px;
-}
-.rline{
-    width:250px;
-    margin-top:0px;
-}
-#eye{
-    display: none;
+    margin-top:25px;
+    margin-left:10px;
+    font-size: 10px;
 }
 .boxes{
     display:flex;
     justify-content: space-between;
-    width:450px;
-    margin-top:120px;
-    margin-bottom:0px;
+    width:250px;
+    margin-top:40px;
+    margin-bottom:70px;
+    margin-left:10px;
 }
 .hiddendivhtml, .hiddendivcss, .hiddendivjs{
-    margin-top:40px;
+    margin-top:75px;
     margin-left:25px;
 
+}
+.twoextra{
+    display: flex;
+    flex-direction: column;
+}
+.twoleft {
+    width:500px;
+}
+.twoleft > img{
+    width:70%;
+    height: 70%;
+    margin-left:55px;
 }
 }
 
