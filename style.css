@@ -198,25 +198,40 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+
 .one{
-    margin-top:40px;
+    margin-top:100px;
+    height: 90vh;
+}
+.oneextra{
+    display: flex;
+    flex-direction: column;
 }
 .namn{
-    font-size: 25px;
+    font-size: 100px;
+    width:100vh;
+}
+.title{
+    width:100vh;
+    margin-top:20px;
+}
+.rline{
+    width:250px;
+    margin-top:0px;
 }
 #eye{
-    height:150px;
-    width:200px;
+    display: none;
 }
 .boxes{
     display:flex;
     justify-content: space-between;
-    width:300px;
-    margin-top:100px;
-    margin-bottom:350px;
+    width:450px;
+    margin-top:120px;
+    margin-bottom:0px;
 }
-hiddendivhtml, hiddendivcss, .hiddendivjs{
-    margin-top:0px;
+.hiddendivhtml, .hiddendivcss, .hiddendivjs{
+    margin-top:40px;
+    margin-left:25px;
 
 }
 }
