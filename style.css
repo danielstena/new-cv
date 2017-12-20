@@ -132,6 +132,7 @@ body{
 .flexdivtilldivarna{
     display: flex;
     flex-direction: row;
+    border:1px solid white;
 }
 .flexdiv{
     display: flex;
@@ -201,7 +202,7 @@ body{
 
 .one{
     margin-top:0px;
-    height: 90vh;
+    height: 80vh;
 }
 .oneleft{
     width:100vh;
@@ -219,16 +220,16 @@ body{
     margin-bottom: 0px;
 }
 .rline{
-    width:270px;
+    width:220px;
     margin-top:0px;
-    margin-left:10px;
+    margin-left:20px;
     margin-bottom: 0px;
 }
 .title{
     width:100vh;
     margin-top:25px;
-    margin-left:10px;
-    font-size: 10px;
+    margin-left:0px;
+    font-size: 11px;
 }
 .boxes{
     display:flex;
@@ -240,20 +241,54 @@ body{
 }
 .hiddendivhtml, .hiddendivcss, .hiddendivjs{
     margin-top:75px;
-    margin-left:25px;
+    margin-left:10px;
 
+}
+.two{
+    height: 100vh;
+    margin-top:0px;
+    margin-bottom:0px;
 }
 .twoextra{
     display: flex;
     flex-direction: column;
 }
 .twoleft {
-    width:500px;
+    width:350px;
+    margin-bottom: 0px;
+    margin-top:0px;
 }
 .twoleft > img{
-    width:70%;
-    height: 70%;
-    margin-left:55px;
+    margin-left: 10px;
+    width: 50%;
+    height:50%;
+}
+.tworight {
+    width:350px;
+    margin-top:0px;
+}
+.tworightinfo > h6{
+    font-size: 12px;
+}
+.tworighthello{
+    margin-top:0px;
+    font-size: 15px;
+}
+.rlinediv{
+    margin-left:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.fat{
+
+    margin-bottom:5%;
+}
+.answer{
+    margin-bottom:2%;
+    font-size: 12px;
+}
+.flexdivtilldivarna{
+    width:350px;
 }
 }
 
