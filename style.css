@@ -132,7 +132,6 @@ body{
 .flexdivtilldivarna{
     display: flex;
     flex-direction: row;
-    border:1px solid white;
 }
 .flexdiv{
     display: flex;
