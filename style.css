@@ -188,7 +188,6 @@ body{
 }
 .slide{
     margin:auto;
-    border:1px solid white;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     color: black;
@@ -288,6 +287,9 @@ body{
 }
 .flexdivtilldivarna{
     width:350px;
+}
+.fat1{
+    width:20px;
 }
 }
 
